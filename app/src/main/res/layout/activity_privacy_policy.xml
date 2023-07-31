@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.PrivacyPolicyActivity"
+    android:layout_margin="20dp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv1"
+        android:layout_marginBottom="15dp"
+        android:text="The Talent-Hub Applicant Portal provides a standardized digital representation of the entire
+        application process, from creating an applicant profile, through the specific application process, all the way to job alerts."
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv2"
+        android:layout_below="@+id/tv1"
+        android:text="Protecting your personal data is accorded the very highest priority. Extensive technical and organizational measures have been taken to protect personal data against unauthorized access and misuse."
+        android:layout_marginBottom="15dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv3"
+        android:layout_below="@+id/tv2"
+        android:layout_marginBottom="15dp"
+        android:text="The principles of fair and transparent processing of data laid down in the General Data Protection Regulation (GDPR) require that you be informed of the existence of the individual processing operation and the purposes of the same as they relate to the Applicant Portal. " />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv3"
+        android:text="The specific personal data collected and the extent to which such data is subject to further processing is essentially based on the job-specific requirements and in accordance with the statutory provisions regarding data protection, in particular employee data protection."/>
+
+</RelativeLayout>

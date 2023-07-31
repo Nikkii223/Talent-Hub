@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.app.talenthub.others.SquareConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/iv_thumbnail"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:src="@color/grey_300"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+   <!-- <View
+        android:id="@+id/view_bg"
+        android:layout_width="match_parent"
+        android:layout_height="24dp"
+        android:background="@color/black_tran"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/iv_view"
+        android:layout_width="wrap_content"
+        android:layout_height="10dp"
+        app:layout_constraintBottom_toBottomOf="@+id/iv_like"
+        app:layout_constraintEnd_toStartOf="@+id/txt_view"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/iv_like"
+        app:srcCompat="@drawable/ic_view" />
+
+    <ImageView
+        android:id="@+id/iv_like"
+        android:layout_width="wrap_content"
+        android:layout_height="10dp"
+        app:layout_constraintBottom_toBottomOf="@+id/view_bg"
+        app:layout_constraintEnd_toStartOf="@+id/txt_like"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/txt_view"
+        app:layout_constraintTop_toTopOf="@+id/view_bg"
+        app:srcCompat="@drawable/ic_heart" />
+
+    <ImageView
+        android:id="@+id/iv_comment"
+        android:layout_width="wrap_content"
+        android:layout_height="10dp"
+        app:layout_constraintBottom_toBottomOf="@+id/iv_like"
+        app:layout_constraintEnd_toStartOf="@+id/txt_comment"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/txt_like"
+        app:layout_constraintTop_toTopOf="@+id/iv_like"
+        app:srcCompat="@drawable/ic_message" />
+
+    <TextView
+        android:id="@+id/txt_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2"
+        android:textColor="@color/white"
+        android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+        app:layout_constraintBottom_toBottomOf="@+id/iv_like"
+        app:layout_constraintEnd_toStartOf="@+id/iv_like"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/iv_view"
+        app:layout_constraintTop_toTopOf="@+id/iv_like" />
+
+    <TextView
+        android:id="@+id/txt_like"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2"
+        android:textColor="@color/white"
+        android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+        app:layout_constraintBottom_toBottomOf="@+id/iv_like"
+        app:layout_constraintEnd_toStartOf="@+id/iv_comment"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/iv_like"
+        app:layout_constraintTop_toTopOf="@+id/iv_like" />
+
+    <TextView
+        android:id="@+id/txt_comment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2"
+        android:textColor="@color/white"
+        android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+        app:layout_constraintBottom_toBottomOf="@+id/iv_like"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/iv_comment"
+        app:layout_constraintTop_toTopOf="@+id/iv_like" />-->
+
+
+</com.app.talenthub.others.SquareConstraintLayout>

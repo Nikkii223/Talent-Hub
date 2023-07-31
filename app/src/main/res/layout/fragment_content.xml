@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/layout_top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingLeft="16dp"
+        android:paddingTop="40dp"
+        android:paddingRight="16dp"
+        android:paddingBottom="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:id="@+id/layout_video"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/layout_add_video_cover"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/app_bg_btn_white"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:src="@drawable/ic_action_image"
+                    app:tint="@color/colorPrimary" />
+
+                <TextView
+                    android:id="@+id/tv_add_cover_album"
+                    android:layout_width="wrap_content"
+                    android:layout_height="36dp"
+                    android:layout_marginLeft="8dp"
+                    android:gravity="center"
+                    android:text="@string/add_video_cover"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                    android:textColor="@color/grey_800" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tv_video_album"
+                android:layout_width="wrap_content"
+                android:layout_height="36dp"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/app_bg_btn_white"
+                android:gravity="center"
+                android:text="@string/add_video"
+                android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                android:textColor="@color/colorPrimary" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <LinearLayout
+                android:id="@+id/layout_add_audio_cover"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/app_bg_btn_white"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:src="@drawable/ic_action_image"
+                    app:tint="@color/colorPrimary" />
+
+                <TextView
+                    android:id="@+id/tv_add_album_art"
+                    android:layout_width="wrap_content"
+                    android:layout_height="36dp"
+                    android:layout_marginLeft="8dp"
+                    android:gravity="center"
+                    android:text="Add album art"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                    android:textColor="@color/grey_800" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <androidx.core.widget.NestedScrollView
+        android:id="@+id/scroll_bar"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:scrollbars="none"
+        app:layout_constraintBottom_toTopOf="@+id/layout_bottom"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/layout_top">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="32dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginRight="32dp"
+            android:layout_marginBottom="16dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Title"
+                android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+                android:textColor="@color/grey_800" />
+
+            <EditText
+                android:id="@+id/et_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/et_bg_white"
+                android:hint="@string/hint_type_here"
+                android:maxLines="1"
+                android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/tv_artist"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Artist"
+                android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+                android:textColor="@color/grey_800" />
+
+            <EditText
+                android:id="@+id/et_artist"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/et_bg_white"
+                android:hint="@string/hint_type_here"
+                android:maxLines="1"
+                android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/tv_genre"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Genre"
+                android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+                android:textColor="@color/grey_800"
+                android:visibility="gone" />
+
+            <EditText
+                android:id="@+id/et_genre"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/et_bg_white"
+                android:hint="@string/hint_type_here"
+                android:maxLines="1"
+                android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                android:textColor="@color/black"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/tv_category"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Category"
+                android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+                android:textColor="@color/grey_800"
+                app:layout_constraintBottom_toTopOf="@+id/layout_spinner_category"
+                app:layout_constraintStart_toStartOf="@+id/layout_spinner_category"
+                app:layout_constraintTop_toBottomOf="@+id/et_genre" />
+
+
+            <LinearLayout
+                android:id="@+id/layout_spinner_category"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/et_bg_white"
+                android:gravity="center_vertical"
+                android:orientation="vertical"
+                app:layout_constraintBottom_toTopOf="@+id/tv_language"
+                app:layout_constraintEnd_toEndOf="@+id/et_genre"
+                app:layout_constraintStart_toStartOf="@+id/et_genre"
+                app:layout_constraintTop_toBottomOf="@+id/tv_category">
+
+                <Spinner
+                    android:id="@+id/spinner_category"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:maxLines="1"
+                    android:spinnerMode="dialog"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                    android:textColor="@color/black"
+                    app:layout_constraintBottom_toTopOf="@+id/tv_language"
+                    app:layout_constraintEnd_toEndOf="@+id/et_genre"
+                    app:layout_constraintStart_toStartOf="@+id/et_genre"
+                    app:layout_constraintTop_toBottomOf="@+id/tv_category" />
+
+            </LinearLayout>
+
+
+            <TextView
+                android:id="@+id/tv_language"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Language"
+                android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+                android:textColor="@color/grey_800"
+                app:layout_constraintBottom_toTopOf="@+id/layout_spinner_language"
+                app:layout_constraintStart_toStartOf="@+id/layout_spinner_language"
+                app:layout_constraintTop_toBottomOf="@+id/layout_spinner_category" />
+
+
+            <LinearLayout
+                android:id="@+id/layout_spinner_language"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/et_bg_white"
+                android:gravity="center_vertical"
+                android:orientation="vertical"
+                app:layout_constraintBottom_toTopOf="@+id/tv_submit"
+                app:layout_constraintEnd_toEndOf="@+id/layout_spinner_category"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/layout_spinner_category"
+                app:layout_constraintTop_toBottomOf="@+id/tv_language">
+
+                <Spinner
+                    android:id="@+id/spinner_language"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:maxLines="1"
+                    android:spinnerMode="dialog"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                    android:textColor="@color/black"
+                    app:layout_constraintBottom_toTopOf="@+id/tv_submit" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tv_caption"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Caption"
+                android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+                android:textColor="@color/grey_800" />
+
+            <EditText
+                android:id="@+id/et_caption"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/et_bg_white"
+                android:hint="Caption"
+                android:maxLines="1"
+                android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/tv_submit"
+                android:layout_width="wrap_content"
+                android:layout_height="36dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/app_bg_edit"
+                android:gravity="center"
+                android:text="@string/submit"
+                android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                android:textColor="@color/white" />
+
+        </LinearLayout>
+
+
+    </androidx.core.widget.NestedScrollView>
+
+
+    <LinearLayout
+        android:id="@+id/layout_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <Button
+            android:id="@+id/btn_video"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:text="@string/video"
+            android:textAllCaps="false"
+            android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+            android:textColor="@color/colorPrimary" />
+
+        <Button
+            android:id="@+id/btn_image"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:text="Image"
+            android:textAllCaps="false"
+            android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+            android:textColor="@color/black"
+            android:textStyle="" />
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

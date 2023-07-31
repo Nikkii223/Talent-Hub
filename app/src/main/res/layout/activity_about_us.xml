@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.AboutUsActivity"
+    android:layout_margin="20dp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv1"
+        android:layout_marginBottom="10dp"
+        android:text="TALENTS HUB is  a app that allows candidates to Create video using their talent and share that videos and can also share pictures for modelling purpose. Director can see that videos and pictures and can hire directly to that candidate for their show according to their talent.
+" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv2"
+        android:layout_marginBottom="10dp"
+        android:layout_below="@+id/tv1"
+        android:text="This app is separately making for director can easily find actor for their show and reduce their timing for audition. And it’s the way of going to be a actor or model and showing any type of talent to the directors and other users. 
+"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv3"
+        android:layout_below="@+id/tv2"
+        android:layout_marginBottom="10dp"
+        android:text="Nowadays directors are going to the particular cities and arrange auditions for the event and candidates also have to go there. In this online system director can easily find candidates without doing any manual work. This system provides facilities to director and as well as to candidate to avoid unnecessary travelling for the audition and director can easily find perfect candidate for their appropriate event. It reduces the time and human efforts.
+"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv4"
+        android:layout_below="@+id/tv3"
+        android:text="Normal people who have great talents and they have to set their carrier but because of their rural area they cannot explore their talent in front of the world. So we observed this problem and we try to resolve this problem by creating platform named TALENTS HUB.
+" />
+
+
+</RelativeLayout>

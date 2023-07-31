@@ -1,0 +1,103 @@
+<resources>
+    <string name="app_name">TalentHub</string>
+    <!-- TODO: Remove or change this placeholder text -->
+
+    <string name="server_client_id">1021234537868-v7ikc56okqf344a9eq1l011n8c4hoqdb.apps.googleusercontent.com</string>
+    <string name="facebook_app_id">1106878026399290</string>
+    <string name="fb_login_protocol_scheme">fb1106878026399290</string>
+    <string name="welcome">Welcome Back</string>
+    <string name="login_account">Login to your account</string>
+    <string name="hint_contact">Mobile Number</string>
+    <string name="skip">Skip</string>
+    <string name="sign_in">Sign In</string>
+    <string name="login_social">Login with social media</string>
+    <string name="exist_account">Already have an account?</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="detail">Add your details</string>
+    <string name="gender">Gender</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="transgender">Transgender</string>
+    <string name="hint_user_name">User name</string>
+    <string name="hint_name">Full name</string>
+    <string name="hint_email">Email address</string>
+    <string name="hint_age">Age</string>
+    <string name="hint_location">India, Gujarat, 360001</string>
+    <string name="verification">Verification</string>
+    <string name="verification_code">please enter verification code sent</string>
+    <string name="resend">RESEND</string>
+    <string name="submit">Submit</string>
+    <string name="search">Search</string>
+    <string name="video">Video</string>
+    <string name="add_video">Add Video</string>
+    <string name="notification">Notification</string>
+    <string name="profile">Profile</string>
+    <string name="for_you">For you</string>
+    <string name="following">Following</string>
+    <string name="setting">Settings</string>
+    <string name="edit">Edit</string>
+    <string name="hint_bio">Bio</string>
+    <string name="empty_contact">*Enter your registered mobile number</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="follow">Follow</string>
+    <string name="unfollow">Unfollow</string>
+    <string name="music">Music</string>
+    <string name="add_video_cover">Add video cover</string>
+    <string name="hint_type_here">Type here</string>
+    <string name="lang_setting">Language Settings</string>
+    <string name="block">Block</string>
+    <string name="un_block">Unblock</string>
+    <string name="about_us">About us</string>
+    <string name="contact_us">Contact us</string>
+    <string name="report_comp">Report a complain</string>
+
+    <string name="about_us_desc">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat accusamus itaque dolore placeat recusandae provident odit laudantium, cum tenetur, maxime facilis ea impedit veritatis ipsa eaque magnam ducimus consequuntur repellat. Lorem ipsum dolor sit amet consectetur adipisicing elit. Error ab facilis eum minus nam odio optio deserunt exercitationem impedit eveniet officiis odit, ullam aperiam reprehenderit? Excepturi fugit magni dignissimos esse!</string>
+    <string name="terms">Terms and Conditions</string>
+    <string name="terms_desc">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat accusamus itaque dolore placeat recusandae provident odit laudantium, cum tenetur, maxime facilis ea impedit veritatis ipsa eaque magnam ducimus consequuntur repellat. Lorem ipsum dolor sit amet consectetur adipisicing elit. Error ab facilis eum minus nam odio optio deserunt exercitationem impedit eveniet officiis odit, ullam aperiam reprehenderit? Excepturi fugit magni dignissimos esse!</string>
+    <string name="address">Address</string>
+    <string name="mobile">Mobile</string>
+    <string name="remove">Remove</string>
+    <string name="report">Report</string>
+    <string name="network_error">Check your internet connection</string>
+    <string name="action_retry">retry</string>
+    <string name="update">Update</string>
+    <string name="delete">Delete</string>
+    <string name="country_error">Country not selected</string>
+
+    <string-array name="array_settings">
+        <item>Blocked user</item>
+        <item>About us</item>
+        <item>Contact us</item>
+        <item>Term of use</item>
+        <item>Report a complain</item>
+        <item>Logout</item>
+    </string-array>
+
+    <string-array name="array_language">
+        <item>Hindi</item>
+        <item>English</item>
+        <item>Gujarati</item>
+        <item>Marathi</item>
+        <item>Punjabi</item>
+        <item>Others</item>
+    </string-array>
+
+    <string-array name="array_categories">
+        <item>Entertainment</item>
+        <item>Dance</item>
+        <item>Music</item>
+        <item>Prank</item>
+        <item>Fitness/ Sports</item>
+        <item>Home Reno/ DIY</item>
+        <item>Beauty and Skincare</item>
+        <item>Cooking &amp; Recipes</item>
+        <item>Fashion</item>
+        <item>Life hack, Advice &amp; Wellness</item>
+        <item>Pets</item>
+        <item>Outdoor</item>
+        <item>Others</item>
+
+    </string-array>
+
+</resources>

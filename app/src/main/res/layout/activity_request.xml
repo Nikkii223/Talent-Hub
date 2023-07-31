@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.RequestActivity">
+
+    <include
+        android:id="@+id/app_bar"
+        layout="@layout/app_bar_layout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:layout_below="@id/app_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginRight="32dp"
+        android:layout_marginBottom="16dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Title"
+            android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+            android:textColor="@color/grey_800" />
+
+        <EditText
+            android:id="@+id/et_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/et_bg_white"
+            android:hint="@string/hint_type_here"
+            android:maxLines="1"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/tv_artist"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Request/ Message"
+            android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+            android:textColor="@color/grey_800" />
+
+        <EditText
+            android:id="@+id/et_message"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="8dp"
+            android:textAlignment="textStart"
+            android:gravity="start"
+            android:padding="8dp"
+            android:background="@drawable/et_bg_white"
+            android:hint="@string/hint_type_here"
+            android:maxLines="4"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/tv_genre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Genre"
+            android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+            android:textColor="@color/grey_800"
+            android:visibility="gone" />
+
+        <EditText
+            android:id="@+id/et_genre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/et_bg_white"
+            android:hint="@string/hint_type_here"
+            android:maxLines="1"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:textColor="@color/black"
+            android:visibility="gone" />
+
+
+        <TextView
+            android:id="@+id/tv_submit"
+            android:layout_width="wrap_content"
+            android:layout_height="36dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/app_bg_edit"
+            android:gravity="center"
+            android:text="@string/submit"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:textColor="@color/white" />
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

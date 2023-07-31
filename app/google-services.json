@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "795898367347",
+    "firebase_url": "https://talent-hub-c9cc9-default-rtdb.firebaseio.com",
+    "project_id": "talent-hub-c9cc9",
+    "storage_bucket": "talent-hub-c9cc9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:795898367347:android:aff2c8c0c6b40163f48906",
+        "android_client_info": {
+          "package_name": "com.app.talenthub"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "795898367347-astgl7fs8rhmncar4rj7h4ptcg33urcu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBezOu9avk0u9K5oc8rlFDLswGXwc0W0jM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "795898367347-astgl7fs8rhmncar4rj7h4ptcg33urcu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
